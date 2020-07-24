@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Oswald:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+html, body {
+    font-family: 'Oswald', sans-serif;
+}
+nav img {
+    width: 250px;
+}
+nav img:hover {
+    transition: all 1.5s ease;
+    transform: scale(1.2);
+}
+.lead{
+    font-family: 'Baloo Da 2', cursive;
+}
+#header{
+    padding: 10px 30px;
+}
+#title-header{
+    font-family: 'Baloo Da 2', cursive;
+}
+#video-section{
+    padding: 30px;
+}
+#lista i{
+    color: #ff0000;
+}
+#contenido i{
+    font-size: 12px;
+}
+section p {
+    font-size: 10px;
+    line-height: 1.2;
+}
+footer{
+    font-size: 15px;
+}
+footer strong {
+    font-size: 13px;
+    font-family: 'Baloo Da 2', cursive;
+
+}
+footer img:hover {
+    transition: all 1.5s ease;
+    transform: scale(1.2);
+}
+
+#links li {
+    
+    font-size: 10px;
+    margin-right: 10px;
+    list-style: none;
+    
+}
