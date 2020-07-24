@@ -36,6 +36,17 @@
       #jumbotron{
         font-family: 'Yanone Kaffeesatz', sans-serif;
       }
+      #cards h4{
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+      }
+      #links li {
+        font-size: 10px;
+        margin-right: 10px;
+        list-style: none;
+      }
+      footer p{
+        font-size: 15px;
+      }
 
   </style>
   <body>
@@ -64,9 +75,7 @@
             <li class="nav-item">
               <a class="nav-link text-light" href="#">Proyectos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Contacto</a>
-            </li>
+            
           </ul>
           <span class="navbar-text text-light">
             Ingeniero Industrial & Desarrollador Web
@@ -74,19 +83,156 @@
         </div>
       </div>
     </nav>
-    <header>
-      
-      <!-- Jumbotron -->
-      <div id="jumbotron" class="p-5  bg-light" style="margin-top: 58px;">
-        <h1 class="mb-3">Hola, yo soy Carlos, 👋</h1>
-        <h4 class="mb-3">Desarrollador Front-end interesado en el diseño y desarrollo de sitios webs, accesibilidad y tipografia.</h4>
-        <a class="btn btn-primary" href="" role="button">Contactame</a>
+
+    <div class="container">
+        <!-- Jumbotron -->
+        <div id="jumbotron" class="p-5  bg-light" style="margin-top: 58px;">
+          <h1 class="mb-3">Hola, yo soy Carlos, 👋</h1>
+          <h4 class="mb-3">Desarrollador Front-end, CEO en <a target="_blank" href="https://sarpindevelops.netlify.app/">Sarpin Develops</a>, interesado en el diseño y desarrollo de sitios webs, accesibilidad y tipografia.</h4>
+          <a class="btn btn-primary btn-md" href="" role="button">Contactame</a>
+        </div>
+        <!-- Jumbotron -->
+    </div>
+
+
+     <div class="container" id="cards">
+      <h4 class="text-dark">En lo que estoy trabajando...</h4>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="/img/project3.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Papeleria & Detalles Iris</h5>
+              <p class="card-text">
+                Negocio de comercio electronico.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="/img/project2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sarpin Develops</h5>
+              <p class="card-text">
+               Agencia de tecnologias web y de marketing
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="/img/project1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dropshipping Latino</h5>
+              <p class="card-text">
+                Landing page curso de Dropshipping Latino Tiendas onlinea inventario cero
+              </p>
+            </div>
+          </div>
+        </div>
+        
       </div>
-      <!-- Jumbotron -->
-    </header>
+     </div> 
 
+     <div class="container mt-5 mb-4" id="cards">
+      <h4>Articulos recientes</h4>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-header">
+              Dropshipping
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Dropshipping en tiempos de pandemia</h5>
+              <p class="card-text">
+                Para nadie es un secreto que las consecuencias a causa de la pandemia por COVID-19  a la reciente recesion economica mundial, todos los sectores productivos se han visto afectados
+                <a href="#" class="text-primary">Seguir Leyendo</a>
+              </p>
+              
+            </div>
+            <div class="card-footer text-muted">
+              hace 2 días
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-header">
+              Marketing de Afiliados
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">¿Como generar comisiones con Amazon Afiliados?</h5>
+              <p class="card-text">
+                Para generar ingresos en linea existen distintas formas y diversos ganales, amazon afiliados es una opcion fantastica para generar valor en un nicho o producto estrella especifico.. 
+                <a href="#" class="text-primary">Seguir Leyendo</a>
+              </p>
+             
+            </div>
+            <div class="card-footer text-muted">
+              hace 2 días
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-header">
+              Comercio Electronico
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">¿Realmente vale la pena crear una tienda y vender productos propios?</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, beatae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, quos.
+                <a href="#" class="text-primary">Seguir Leyendo</a>
+              </p>
+            <div class="card-footer text-muted">
+              hace 2 días
+            </div>
+          </div>
+        </div>
+        
+      </div>
+     </div> 
+  
 
+<!--Footer-->
+<footer class="bg-light text-white text-center pt-3">
+  <!-- Copyright -->
+  <div class="d-flex justify-content-center align-items-center ">
+    <a href="/dropshipping.html" class="navbar-brand text-light">
+      <img width="150" src="/img/negrosarmiento.png" alt="Logotipo Dropshipping Latino">
+    </a> 
+  </div>
+  <div class="text-center text-dark">
+      <p>Todos los derechos reservados  © 2020</p>
+    
+  </div>
+  <div class="container" id="links">
+    <div class="row">
+      <ul class="d-flex justify-content-center align-items-center">
+        <li><a class="text-dark" href="politica.html">Politica de privacidad</a></li>
+        <li><a class="text-dark" href="politica.html">Terminos de uso</a></li>
+        <li><a class="text-dark" href="politica.html">Cookies</a></li>
+        <li><a class="text-dark" href="politica.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
 
+  <!-- Copyright -->
+  </footer>
+  <!--End Footer-->
 
 
   </body>
