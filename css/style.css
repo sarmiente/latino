@@ -53,7 +53,7 @@ footer img:hover {
 }
 
 #links li {
-    
+    cursor: pointer;
     font-size: 10px;
     margin-right: 10px;
     list-style: none;

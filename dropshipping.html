@@ -328,14 +328,67 @@
           <li><a class="text-white" href="politica.html">Politica de privacidad</a></li>
           <li><a class="text-white" href="politica.html">Terminos de uso</a></li>
           <li><a class="text-white" href="politica.html">Cookies</a></li>
-          <li><a class="text-white" href="politica.html">Contacto</a></li>
+          <li><a class="text-white"
+            data-toggle="modal"
+            data-target="#exampleModal"
+            >Contacto</a></li>
         </ul>
       </div>
     </div>
-
-    <!-- Copyright -->
     </footer>
     <!--End Footer-->
+
+    <!-- Modal Contacto-->
+    <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+    >
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contacto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <!-- Name input -->
+                <div class="form-outline mb-4">
+                  <input type="text" id="form4Example1" class="form-control" />
+                  <label class="form-label" for="form4Example1">Nombre</label>
+                </div>
+              
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form4Example2" class="form-control" />
+                  <label class="form-label" for="form4Example2">Correo electronico</label>
+                </div>
+              
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                  <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                  <label class="form-label" for="form4Example3">Mensaje</label>
+                </div>
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">
+                  Enviar
+                </button>
+              </form>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">
+            Cerrar
+        </button>
+        
+        </div>
+    </div>
+    </div>
+    </div>
+
 
 
   </body>
